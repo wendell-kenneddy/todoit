@@ -1,0 +1,26 @@
+{
+  "name": "todoit",
+  "version": "1.0.0",
+  "description": "A Todo App built in Javascript.",
+  "main": "/src/index.js",
+  "scripts": {
+    "build": "webpack -w"
+  },
+  "author": "Wendell Kenneddy",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.13.1",
+    "css-loader": "^5.2.6",
+    "regenerator-runtime": "^0.13.7",
+    "sass": "^1.34.0",
+    "sass-loader": "^12.0.0",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  }
+}

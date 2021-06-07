@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="creator" content="Wendell Kenneddy">
+  <meta name="description" content="Uma simples lista de tarefas.">
+  <meta name="keywords" content="tasks">
+  <meta property="og:title" content="ToDoit - Uma simples lista de tarefas.">
+  <meta property="og:description" content="Uma simples lista de tarefas.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name"
+    content="ToDoit - Uma simples lista de tarefas.">
+  <meta property="og:image" content="./assets/images/preview.png">
+  <meta property="og:locale" content="pt-BR">
+  <meta name="twitter:title" content="ToDoit">
+  <meta property="twitter:description" content="Uma simples lista de tarefas.">
+  <meta property="twitter:image" content="./assets/images/preview.png">
+  <link rel="icon" type="image/png" sizes="32x32"
+    href="./assets/images/favicon-32x32.png">
+  <title>ToDoit - Uma simples lista de tarefas</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <header id="page-header" role="heading">
+    <div class="bg-div"></div>
+  </header>
+
+  <main class="container" role="main">
+    <div class="h1-container">
+      <h1>ToDoit</h1>
+    </div>
+
+    <section class="create-task-container">
+      <div class="add-task" title="Clique para adicionar uma tarefa.">
+      </div>
+
+      <input type="text" placeholder="Criar nova tarefa..." id="new-task-name"
+        name="new-task-name">
+    </section>
+
+    <section class="tasks-container">
+      <ul>
+      </ul>
+    </section>
+
+    <div class="tasks-info">
+      <p id="total-remaining-tasks">Tarefas restantes</p>
+
+      <a href="#" id="clear-tasks">Limpar Concluídas</a>
+    </div>
+
+    <div class="user-actions">
+      <a href="#" id="list-all-tasks" class="active">Todas</a>
+      <a href="#" id="list-active-tasks">Ativas</a>
+      <a href="#" id="list-concluded-tasks">Concluídas</a>
+    </div>
+  </main>
+
+  <div class="toast hide">
+    <p>Por favor, digite o nome da tarefa.</p>
+  </div>
+
+  <script src="./assets/js/bundle.js"></script>
+</body>
+
+</html>
